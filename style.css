@@ -1,0 +1,113 @@
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* background-color: lightcoral; */
+  font-family: 'Roboto',sans-serif;
+}
+
+.main {
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  height: 8vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  font-weight: 500;
+  color: whitesmoke;
+  background-color: rgb(10, 24, 42);
+}
+
+.images {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-top:4vw;
+  width: 65vw;
+  
+}
+
+.images img {
+  border: 0.1vw solid black;
+  border-radius: 50%;
+  height: 15vw;
+  width: 15vw;
+  object-fit: cover;
+  object-position: center;
+  appearance: none;
+  transition: transform 100ms;
+}
+
+.rock:active, .paper:active, .scissors:active{
+  transform: scale(0.95);
+  box-shadow: 0vw 0vw 2vw 0vw rgba(255, 0, 76, 0.781) ;
+}
+
+
+.paper:active {
+  box-shadow: 0vw 0vw 2vw  rgba(169, 7, 245, 0.781);
+}
+.scissors:active {
+  box-shadow: 0vw 0vw 2vw 0vw rgba(26, 96, 236, 0.78);
+}
+
+.score {
+  font-weight: 500;
+  font-size: 1.5em;
+  margin: 6vw 0; 
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 4vw;
+  line-height: 2.5vw;
+
+}
+
+.human, .computer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.human_score , .computer_score {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.reset {
+  margin: 0vw 0;
+  height: 4vw;
+  width: 11vw;
+  font-size: 1.2vw;
+  cursor: pointer;
+  padding: 0.5vw 0.25vw;
+  color: whitesmoke;
+  font-weight: 700;
+  background-color:rgba(62, 106, 172, 0.836);
+  border: 0.2vw black;
+  border-radius: 1vw;
+}
+
+.reset:hover {
+  margin-top: -0.1vw;
+  height: 4.2vw;
+  width: 11.2vw;
+  background-color: rgb(30, 72, 139);
+  box-shadow: 0 0 1vw 0.15vw rgba(0, 0, 0, 0.699);
+  transition: transform 85ms;
+}
+.reset:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 0.8vw rgba(0, 0, 0, 0.904);
+}
+
+
+
+
