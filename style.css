@@ -47,7 +47,8 @@ html, body {
 }
 
 .rock:active, .paper:active, .scissors:active{
-  transform: scale(0.95);
+  /* transform: scale(0.95); */
+  transform: scale(1.05);
   box-shadow: 0vw 0vw 2vw 0vw rgba(255, 0, 76, 0.781) ;
 }
 
