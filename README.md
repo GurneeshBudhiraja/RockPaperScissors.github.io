@@ -1,6 +1,7 @@
 # 👊✋✌Rock Paper Scissors Game 👊✋✌
 ## Overview
 ### This is a simple Rock Paper Scissors game implemented using HTML, CSS, and JavaScript. The game allows you to play against the computer and keeps track of your score.
+### Hosted on this URL: https://gurneeshbudhiraja.github.io/RockPaperScissors.github.io/
 
 ## Getting Started
 1. Clone or download the repository to your local machine.
